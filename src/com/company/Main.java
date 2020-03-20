@@ -35,16 +35,16 @@ public class Main {
     public static String checkIfCorrect (int badNumber) {
         if (badNumber == 0) {
             return "Invalid number";
-        } else return "Wynik "+badNumber;
+        } else return "Score "+badNumber;
     }
 
-    public static int cubeK4 (int losowanieLiczby) {
+    public static int cubeK4 (int numberDrawK4) {
 
         Random r = new Random();
-        int rzutK4 = r.nextInt(5);
-        losowanieLiczby = losowanieLiczby + rzutK4 -1;
+        int k4Throw = r.nextInt(5);
+        numberDrawK4 = numberDrawK4 + k4Throw -1;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK4) {
             case 0:
                 return 1;
             case 1:
@@ -56,13 +56,13 @@ public class Main {
         }
     }
 
-    public static int cubeK6 (int losowanieLiczby) {
+    public static int cubeK6 (int numberDrawK6) {
 
         Random r = new Random();
-        int rzutK6 = r.nextInt(7);
-        losowanieLiczby = losowanieLiczby + rzutK6 -1;
+        int k6Throw = r.nextInt(7);
+        numberDrawK6 = numberDrawK6 + k6Throw -1;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK6) {
             case 0:
                 return 1;
             case 1:
@@ -78,13 +78,13 @@ public class Main {
         }
     }
 
-    public static int cubeK8 (int losowanieLiczby) {
+    public static int cubeK8 (int numberDrawK8) {
 
         Random r = new Random();
-        int rzutK8 = r.nextInt(9);
-        losowanieLiczby = losowanieLiczby + rzutK8 - 1;
+        int k8Throw = r.nextInt(9);
+        numberDrawK8 = numberDrawK8 + k8Throw - 1;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK8) {
             case 0:
                 return 1;
             case 1:
@@ -104,13 +104,13 @@ public class Main {
         }
     }
 
-    public static int cubeK10 (int losowanieLiczby) {
+    public static int cubeK10 (int numberDrawK10) {
 
         Random r = new Random();
-        int rzutK10 = r.nextInt(11);
-        losowanieLiczby = losowanieLiczby + rzutK10 -1;
+        int k10Throw = r.nextInt(11);
+        numberDrawK10 = numberDrawK10 + k10Throw -1;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK10) {
             case 0:
                 return 1;
             case 1:
@@ -134,13 +134,13 @@ public class Main {
         }
     }
 
-    public static int cubeK12 (int losowanieLiczby) {
+    public static int cubeK12 (int numberDrawK12) {
 
         Random r = new Random();
-        int rzutK12 = r.nextInt(13);
-        losowanieLiczby = losowanieLiczby + rzutK12 -1;
+        int k12Throw = r.nextInt(13);
+        numberDrawK12 = numberDrawK12 + k12Throw -1;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK12) {
             case 0:
                 return 1;
             case 1:
@@ -168,13 +168,13 @@ public class Main {
         }
     }
 
-    public static int cubeK20 (int losowanieLiczby) {
+    public static int cubeK20 (int numberDrawK20) {
 
         Random r = new Random();
-        int rzutK20 = r.nextInt(21);
-        losowanieLiczby = losowanieLiczby + rzutK20 -1;
+        int k20Throw = r.nextInt(21);
+        numberDrawK20 = numberDrawK20 + k20Throw -1;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK20) {
             case 0:
                 return 1;
             case 1:
@@ -218,13 +218,13 @@ public class Main {
         }
     }
 
-    public static int cubeK100 (int losowanieLiczby) {
+    public static int cubeK100 (int numberDrawK100) {
 
         Random r = new Random();
-        int rzutK100 = r.nextInt(10);
-        losowanieLiczby = losowanieLiczby + rzutK100 * 10 - 10;
+        int k100Throw = r.nextInt(10);
+        numberDrawK100 = numberDrawK100 + k100Throw * 10 - 10;
 
-        switch (losowanieLiczby) {
+        switch (numberDrawK100) {
             case 0:
                 return 10;
             case 1:
